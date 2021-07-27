@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-# Welcome to WHOI, and to the Alexander Lab!
+Welcome to WHOI, and to the Alexander Lab!
 =======================================
 
 Follow the links below to start to dive into some of the topics covered on this site.
@@ -11,12 +11,4 @@ Follow the links below to start to dive into some of the topics covered on this 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
-   intro-lab.md
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+       intro-lab.md
