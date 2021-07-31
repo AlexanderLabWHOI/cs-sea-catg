@@ -13,6 +13,8 @@ Follow the links below to start to dive into some of the topics covered on this 
    :caption: Contents:
    
    intro-lab.md
+   getting-started-poseidon.md
+   using-snakemake.md
    
 
 .. image:: alexander_lab.jpeg
@@ -22,3 +24,6 @@ Follow the links below to start to dive into some of the topics covered on this 
 WHOI-related links
 ------------------
 
+ - `Managing and Monitoring Jobs on Poseidon
+<https://whoi-it.whoi.edu/managing-and-monitoring-jobs-on-poseidon/>`_.
+ 
