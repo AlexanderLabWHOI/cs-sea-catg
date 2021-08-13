@@ -65,10 +65,11 @@ html_theme_options = {
     #    (name, page)                 # a link to a page
     #    (name, "/aa/bb", 1)          # a link to an arbitrary relative url
     #    (name, "http://example.com", True) # arbitrary absolute url
+    # put commas between multiple!!
     # Note the "1" or "True" value above as the third argument to indicate
     # an arbitrary url.
     'navbar_links': [
-        ("Poseidon", "https://whoi-it.whoi.edu/managing-and-monitoring-jobs-on-poseidon",True),
+        ("Poseidon", "https://whoi-it.whoi.edu/managing-and-monitoring-jobs-on-poseidon",True)
     ],
 
     # Render the next and previous page links in navbar. (Default: true)
@@ -112,7 +113,7 @@ html_theme_options = {
     # Currently, the supported themes are:
     # - Bootstrap 2: https://bootswatch.com/2
     # - Bootstrap 3: https://bootswatch.com/3
-    #'bootswatch_theme': "readable",
+    'bootswatch_theme': "readable",
 
     # Choose Bootstrap version.
     # Values: "3" (default) or "2" (in quotes)
