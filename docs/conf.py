@@ -17,7 +17,6 @@
 
 #import sphinx_rtd_theme
 import sphinx_bootstrap_theme
-import mkdocs-bootswatch
 
 # -- Project information -----------------------------------------------------
 
