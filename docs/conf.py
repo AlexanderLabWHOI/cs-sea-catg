@@ -34,7 +34,7 @@ release = '1'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 # may need pip install myst-parser -> enables use of Markdown
-extensions = ["myst_parser","sphinx_rtd_theme"]
+extensions = ["myst_parser","sphinx_rtd_theme","sphinx_bootstrap_theme","bootswatch"]
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -52,6 +52,7 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 html_theme = 'bootstrap'
 html_theme_path = sphinx_bootstrap_theme.get_html_theme_path()
 #html_theme = 'sphinx_rtd_theme'
+html_logo = "alexander_lab.jpeg"
 html_theme_options = {
     # Navigation bar title. (Default: ``project`` value)
     'navbar_title': "Demo",
