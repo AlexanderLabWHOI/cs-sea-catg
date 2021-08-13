@@ -8,7 +8,13 @@ A primer on embarking on computational research projects
 ========================================================
 
 Follow the links below to start to dive into some of the topics covered on this site.
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
    
+   getting-started-poseidon.md
+   using-snakemake.md
 
 Getting help
 ------------
