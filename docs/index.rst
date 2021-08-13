@@ -21,4 +21,5 @@ Getting help
 
 In addition to this resource, there are a number of other really awesome sources of content out there about how to get around on the command line and with research. These include
 
-- 
+.. _`Software Carpentries`: https://software-carpentry.org/
+.. _`Sphinx Bootstrap Theme`: https://github.com/ryan-roemer/sphinx-bootstrap-theme

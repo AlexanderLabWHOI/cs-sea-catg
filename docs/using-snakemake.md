@@ -1,1 +1,4 @@
-# Using Snakemake
+<header>
+Using Snakemake
+===============
+</header>
