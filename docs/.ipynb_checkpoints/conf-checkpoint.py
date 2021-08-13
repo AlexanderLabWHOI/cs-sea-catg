@@ -34,7 +34,7 @@ release = '1'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 # may need pip install myst-parser -> enables use of Markdown
-extensions = ["myst_parser","sphinx_rtd_theme","sphinx_bootstrap_theme","bootswatch"]
+extensions = ["myst_parser","sphinx_rtd_theme","sphinx_bootstrap_theme"]
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
