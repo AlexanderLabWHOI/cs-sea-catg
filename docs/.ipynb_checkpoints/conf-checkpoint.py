@@ -68,8 +68,7 @@ html_theme_options = {
     # Note the "1" or "True" value above as the third argument to indicate
     # an arbitrary url.
     'navbar_links': [
-        ("Poseidon", "https://whoi-it.whoi.edu/managing-and-monitoring-jobs-on-poseidon/"),
-        ("Link", "http://example.com", True),
+        ("Poseidon", "https://whoi-it.whoi.edu/managing-and-monitoring-jobs-on-poseidon",True),
     ],
 
     # Render the next and previous page links in navbar. (Default: true)
