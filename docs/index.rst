@@ -3,8 +3,8 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to WHOI, and to the Alexander Lab!
-=======================================
+A primer on embarking on research projects with computational components
+========================================================================
 
 Follow the links below to start to dive into some of the topics covered on this site.
 

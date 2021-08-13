@@ -34,7 +34,7 @@ release = '1'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 # may need pip install myst-parser -> enables use of Markdown
-extensions = ["myst_parser","sphinx_rtd_theme","sphinx_bootstrap_theme"]
+extensions = ["myst_parser","sphinx_rtd_theme","sphinx_bootstrap_theme","mkdocs-bootswatch"]
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -55,10 +55,10 @@ html_theme_path = sphinx_bootstrap_theme.get_html_theme_path()
 html_logo = "alexander_lab.jpeg"
 html_theme_options = {
     # Navigation bar title. (Default: ``project`` value)
-    'navbar_title': "Demo",
+    'navbar_title': "Science in a Virtual Box",
 
     # Tab name for entire site. (Default: "Site")
-    'navbar_site_name': "Science in a Virtual Box",
+    'navbar_site_name': "Full Site",
 
     # A list of tuples containing pages or urls to link to.
     # Valid tuples should be in the following forms:
@@ -68,7 +68,7 @@ html_theme_options = {
     # Note the "1" or "True" value above as the third argument to indicate
     # an arbitrary url.
     'navbar_links': [
-        ("Examples", "examples"),
+        ("Poseidon", "https://whoi-it.whoi.edu/managing-and-monitoring-jobs-on-poseidon/"),
         ("Link", "http://example.com", True),
     ],
 
@@ -79,7 +79,7 @@ html_theme_options = {
     'navbar_pagenav': True,
 
     # Tab name for the current pages TOC. (Default: "Page")
-    'navbar_pagenav_name': "Page",
+    'navbar_pagenav_name': "Current",
 
     # Global TOC depth for "site" navbar tab. (Default: 1)
     # Switching to -1 shows all levels.
