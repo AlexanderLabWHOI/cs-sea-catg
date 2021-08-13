@@ -3,8 +3,9 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to WHOI, and to the Alexander Lab!
-=======================================
+
+A primer on embarking on computational research projects
+========================================================
 
 Follow the links below to start to dive into some of the topics covered on this site.
 
@@ -12,13 +13,12 @@ Follow the links below to start to dive into some of the topics covered on this 
    :maxdepth: 2
    :caption: Contents:
    
-   intro-lab.md
-   
+   getting-started-poseidon.md
+   using-snakemake.md
 
-.. image:: alexander_lab.jpeg
-  :width: 400
-  :alt: Alexander Lab logo
+Getting help
+============
 
-WHOI-related links
-------------------
+In addition to this resource, there are a number of other really awesome sources of content out there about how to get around on the command line and with research. These include
 
+- 

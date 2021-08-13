@@ -4,8 +4,8 @@
    contain the root `toctree` directive.
 
 
-A primer on embarking on research projects with computational components
-========================================================================
+A primer on embarking on computational research projects
+========================================================
 
 Follow the links below to start to dive into some of the topics covered on this site.
 
@@ -15,3 +15,10 @@ Follow the links below to start to dive into some of the topics covered on this 
    
    getting-started-poseidon.md
    using-snakemake.md
+
+Getting help
+============
+
+In addition to this resource, there are a number of other really awesome sources of content out there about how to get around on the command line and with research. These include
+
+- 
