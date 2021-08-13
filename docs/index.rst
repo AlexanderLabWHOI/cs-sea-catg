@@ -13,18 +13,5 @@ Follow the links below to start to dive into some of the topics covered on this 
    :maxdepth: 2
    :caption: Contents:
    
-   intro-lab.md
    getting-started-poseidon.md
    using-snakemake.md
-   
-
-.. image:: alexander_lab.jpeg
-  :width: 400
-  :alt: Alexander Lab logo
-
-WHOI-related links
-------------------
-
- - `Managing and Monitoring Jobs on Poseidon
-<https://whoi-it.whoi.edu/managing-and-monitoring-jobs-on-poseidon/>`_.
- 
