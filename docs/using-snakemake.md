@@ -1,4 +1,3 @@
-<header>
-Using Snakemake
-===============
-</header>
+% Using Snakemake
+
+# Snakemake as an organizational tool
