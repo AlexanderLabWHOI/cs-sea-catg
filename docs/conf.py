@@ -72,10 +72,10 @@ html_theme_options = {
     #],
 
     # Render the next and previous page links in navbar. (Default: true)
-    'navbar_sidebarrel': True,
+    'navbar_sidebarrel': False,
 
     # Render the current pages TOC in the navbar. (Default: true)
-    'navbar_pagenav': True,
+    'navbar_pagenav': False,
 
     # Tab name for the current pages TOC. (Default: "Page")
     'navbar_pagenav_name': "Current",
@@ -99,7 +99,7 @@ html_theme_options = {
 
     # Location of link to source.
     # Options are "nav" (default), "footer" or anything else to exclude.
-    'source_link_position': "nav",
+    'source_link_position': "footer",
 
     # Bootswatch (http://bootswatch.com/) theme.
     #

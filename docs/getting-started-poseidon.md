@@ -21,3 +21,7 @@ On a Mac, you have very few steps before you're up and running on the command li
 
 In Windows, you can run commands through the **Command Prompt**, which you may have used before. You can access the command prompt using the `Run` application by typing "cmd", or through any search bar via typing "cmd" or "Command Prompt".
 
+However, you'll probably come to an impasse pretty quickly when using the Command Prompt as a terminal emulator. It doesn't have a lot of the features that a program like `Terminal` does, so you'll probably want to download something to make your life easier. One great option for that is `Cmder`, with a download available [here](https://github.com/cmderdev/cmder/releases/download/v1.3.11/cmder.zip), although you might be able to get by with `Powershell` as loaded on your Windows machine.
+
+### Commands that you'll use most often
+
