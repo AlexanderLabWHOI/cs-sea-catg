@@ -16,7 +16,7 @@ import sphinx_bootstrap_theme
 # sys.path.insert(0, os.path.abspath('.'))
 
 
-#import sphinx_rtd_theme
+# import sphinx_rtd_theme
 
 # -- Project information -----------------------------------------------------
 
@@ -67,9 +67,9 @@ html_theme_options = {
     #    (name, "http://example.com", True) # arbitrary absolute url
     # Note the "1" or "True" value above as the third argument to indicate
     # an arbitrary url.
-    'navbar_links': [
-        ("Poseidon", "https://whoi-it.whoi.edu/managing-and-monitoring-jobs-on-poseidon",True),
-    ],
+    #'navbar_links': [
+    #    ("Poseidon", "https://whoi-it.whoi.edu/managing-and-monitoring-jobs-on-poseidon",True),
+    #],
 
     # Render the next and previous page links in navbar. (Default: true)
     'navbar_sidebarrel': True,
