@@ -53,6 +53,8 @@ Which will take over your terminal with the canvas of the newly opened document.
 
 Once you are inside the document, you can type a colon (`Shift+;`) to tell `vim` that you wish to change modes. After you type the colon, your cursor should show up at the bottom of the panel. Next, you can type "i" for `INSERT`. This will change you to editing mode. 
 
+After editing the document, you can again type a colon. To save the file, you can just type ":w" then hit enter. To both save and close, ":wq" is the sequence. To close without saving, you can just use ":q", but this will complain if you have edited the document. To force `vim` to ignore your edits, you can use ":q!" (but keep in mind, this is not recoverable if you make a mistake, and it won't ask for any more confirmation!).
+
 <div class="panel panel-primary">
   <div class="panel-heading">
     <h3 class="panel-title">Exercise: Writing a Document with Vim</h3>
@@ -63,11 +65,56 @@ Once you are inside the document, you can type a colon (`Shift+;`) to tell `vim`
   </div>
 </div>
 
-
 #### Editing your `bash_profile`
 
 Before you log in, you might want to do something immediately that can be super handy. We can *alias* a command to tell our shell to run a longer command in place of the shorter one that we enter. These aliased commands can be stored in our `bash_profile`. 
 
+To edit your bash profile, you can use:
+
+```
+vim ~/.bash_profile
+```
+
+Which will also create the document if you don't have one. A useful line to insert into this document:
+
+```
+alias whoi="ssh <user-name>@poseidon-l1.whoi.edu"
+```
+
+This will make it so that all you need to type is `whoi`, and you'll instantly be sent to the `Poseidon` login. 
+
+#### Setting up an ssh key
+
+When you first log in to Poseidon, you'll be required to enter your WHOI account password (keep in mind: different from the _network_ password that you've used to access the VPN, WiFi, or both). This can be annoying, especially if your password is long and/or complex (read: **secure**!).
+
+To get around having to do this when you log in from the local computer that you use most often, you can type
+
+```
+ssh-keygen -t rsa
+```
+cat ~/.ssh/id_rsa.pub | ssh user@hostname 'cat >> .ssh/authorized_keys'
+
+On your *local* machine. You should accept the defaults, and enter a passphrase to use if prompted. Now, type:
+
+```
+cat ~/.ssh/id_rsa.pub
+```
+
+And copy the text that gets printed below your prompt.
+
+Now, log in to Poseidon using `ssh`. Once on `Poseidon`, type:
+
+```
+ssh_publickey="<PASTE YOUR TEXT>"
+```
+
+Make sure that you have pasted *exactly* the printed text from your local computer and *nothing extra*. Also make sure to put quotes before or after the pasted text. Now, type:
+
+```
+echo $ssh_publickey >> .ssh/authorized_keys
+```
+
+This should make it so that the remote server recognizes you as an authenticated user when you attempt to log in from this computer, so that typing `whoi` (if you've set up the alias) gets you straight to Poseidon, no password required.
 
 ### Commands that you'll use most often
 
@@ -91,4 +138,4 @@ Working on the command line is most useful for opening and parsing files quickly
   </div>
 </div>
 
-The key connection to make 
+The key connection to make when working with files and directories on the HPC is to understand the file structure the same way you have understood it for years graphically (which can be tricky!). This is why it's essential to get some practice with navigating, opening, and closing files before going much further.
