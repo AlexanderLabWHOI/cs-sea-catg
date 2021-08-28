@@ -15,6 +15,8 @@ Follow the links below to start to dive into some of the topics covered on this 
    
    getting-started-poseidon.md
    using-snakemake.md
+   using-rclone.md
+   ssh-tunneling.md
 
 Getting help
 ------------

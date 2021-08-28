@@ -28,20 +28,5 @@ However, you'll probably come to an impasse pretty quickly when using the Comman
 Working on the command line is most useful for opening and parsing files quickly and easily. For that reason, we provide a list below of a few of the commands you'll use most frequently when working with the command line. With the exception of the last command on this list, this set of commands is also an excellent group of commands to practice with.
 
 - `ls` - print out the contents of the current directory.
-- `cd` - change directories.
-- `pwd` - print the current working directory.
-- `mkdir` - make a new directory.
-- `cp` - copy files between two locations.
-- `mv` - move or rename a file or folder.
-- `rm` - **warning**: doing this is _permanent_. There is no "Recycle Bin" or "Trash". This removes a file or folder.
-
-<div class="panel panel-primary">
-  <div class="panel-heading">
-    <h3 class="panel-title">Command Line Flags & Arguments</h3>
-  </div>
-  <div class="panel-body">
-      Every command has some set of <b>flags</b> that you can use in order to achieve the output you're looking for. Among the most useful flags is <code>--help</code> on Linux, which shows you all of the flags that are available for a command.
-      As opposed to flags, <i>arguments</i> are inputs that the command expects when you run it. These may be either optional or required, but you'll offer these to the command without any subheading. For example, the <code>cp</code> command <i>requires</i> that you give it two pieces of information, every time you run the command. It needs <i>what you want to copy</i> and <i>where you want to copy it to</i>. If you leave these details out, you'll get an <b>error</b>. The arguments to a command are separated ("delimited") by <b>spaces</b>.
-  </div>
-</div>
+- 
 
