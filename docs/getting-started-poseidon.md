@@ -25,3 +25,8 @@ However, you'll probably come to an impasse pretty quickly when using the Comman
 
 ### Commands that you'll use most often
 
+Working on the command line is most useful for opening and parsing files quickly and easily. For that reason, we provide a list below of a few of the commands you'll use most frequently when working with the command line. With the exception of the last command on this list, this set of commands is also an excellent group of commands to practice with.
+
+- `ls` - print out the contents of the current directory.
+- 
+
